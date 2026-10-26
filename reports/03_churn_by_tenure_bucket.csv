@@ -1,0 +1,5 @@
+tenure_bucket,customers,churn_rate_pct
+0-11 months,2069,48.28
+12-23 months,1047,29.51
+24-47 months,1624,20.87
+48+ months,2303,9.64
