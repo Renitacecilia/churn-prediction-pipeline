@@ -99,3 +99,6 @@ Gradient boosting was selected and scored **0.843 ROC-AUC** on a held-out test s
 5. Schedule `etl` + `train` with Airflow or Prefect.
 6. Build a Power BI / Tableau / Streamlit dashboard on top of `data/churn.db`.
 7. Track experiments with MLflow.
+## Data source
+
+IBM Telco Customer Churn sample dataset, from [IBM/telco-customer-churn-on-icp4d](https://github.com/IBM/telco-customer-churn-on-icp4d), licensed under Apache 2.0. The raw data is not included in this repo; `python -m src.download_data` downloads it.
